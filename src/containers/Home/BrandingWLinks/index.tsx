@@ -9,7 +9,7 @@ const BrandingWLinks: FC = () => {
     <S.HomeBar>
       <S.Wrapper>
         <S.BrandingContainer>
-          <S.Logo src={Logo} alt="Branding" />
+          <S.Logo src={Logo} alt="toffeelabs logo" />
           <S.BrandingText>Toffee Labs</S.BrandingText>
         </S.BrandingContainer>
         <S.LinksContainer>
