@@ -21,6 +21,11 @@ export const fontSizeD2 = css`
   line-height: ${fonts.lineHeight.default};
 `;
 
+export const fontSizeH0 = css`
+  font-size: ${fonts.size.h0};
+  line-height: ${fonts.lineHeight.default};
+`;
+
 export const fontSizeH1 = css`
   font-size: ${fonts.size.h1};
   line-height: ${fonts.lineHeight.default};

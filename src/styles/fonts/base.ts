@@ -8,6 +8,7 @@ const fonts = {
     d0: '48px',
     d1: '42px',
     d2: '36px',
+    h0: '28px',
     h1: '24px',
     h2: '20px',
     h3: '16px',

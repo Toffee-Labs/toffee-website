@@ -24,6 +24,11 @@ const d2Base = css`
   ${fontSize.fontSizeD2};
 `;
 
+const h0Base = css`
+  ${fontFamily.fontFamilyDefault};
+  ${fontSize.fontSizeH0};
+`;
+
 const h1Base = css`
   ${fontFamily.fontFamilyDefault};
   ${fontSize.fontSizeH1};
@@ -144,6 +149,21 @@ export const d2 = {
   light: css`
     ${d2Base};
     ${fontWeight.fontWeightLight};
+  `,
+};
+
+export const h0 = {
+  bold: css`
+    ${h0Base};
+    ${fontWeight.fontWeightBold};
+  `,
+  medium: css`
+    ${h0Base};
+    ${fontWeight.fontWeightMedium};
+  `,
+  regular: css`
+    ${h0Base};
+    ${fontWeight.fontWeightRegular};
   `,
 };
 
