@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import colors from 'styles/colors';
-import {h0, h2, t0} from 'styles/fonts';
+import {h0, h2, t1} from 'styles/fonts';
 
 interface AProps {
   element?: 'icon' | 'text';
@@ -13,6 +13,8 @@ export const HomeBar = styled.div`
   display: flex;
   justify-content: center;
   color: white;
+  position: absolute;
+  z-index: 999;
 `;
 
 export const Wrapper = styled.div`
@@ -37,7 +39,7 @@ export const Logo = styled.img`
 
 export const BrandingText = styled.span`
   color: ${colors.secondary};
-  ${t0.medium};
+  ${t1.semiBold};
   padding-left: 0.3em;
 `;
 

@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
-import BrandingWLinks from './Home/BrandingWLinks';
+import Home from './Home';
 
 const App: FC = () => {
   return (
     <>
-      <BrandingWLinks />
+      <Home />
     </>
   );
 };

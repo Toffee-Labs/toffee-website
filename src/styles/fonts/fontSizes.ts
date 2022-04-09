@@ -6,6 +6,11 @@ export const fontSizeT0 = css`
   line-height: ${fonts.lineHeight.default};
 `;
 
+export const fontSizeT1 = css`
+  font-size: ${fonts.size.t1};
+  line-height: ${fonts.lineHeight.default};
+`;
+
 export const fontSizeD0 = css`
   font-size: ${fonts.size.d0};
   line-height: ${fonts.lineHeight.default};

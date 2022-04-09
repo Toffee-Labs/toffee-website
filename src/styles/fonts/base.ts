@@ -4,7 +4,8 @@ const fonts = {
     title: 'Rowdies, Calibri, sans-serif',
   },
   size: {
-    t0: '28px',
+    t0: '36px',
+    t1: '28px',
     d0: '48px',
     d1: '42px',
     d2: '36px',

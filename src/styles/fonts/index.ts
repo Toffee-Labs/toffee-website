@@ -9,6 +9,11 @@ const t0Base = css`
   ${fontSize.fontSizeT0};
 `;
 
+const t1Base = css`
+  ${fontFamily.fontFamilyTitle};
+  ${fontSize.fontSizeT1};
+`;
+
 const d0Base = css`
   ${fontFamily.fontFamilyDefault};
   ${fontSize.fontSizeD0};
@@ -102,6 +107,25 @@ export const t0 = {
   `,
   regular: css`
     ${t0Base};
+    ${fontWeight.fontWeightRegular};
+  `,
+};
+
+export const t1 = {
+  bold: css`
+    ${t1Base};
+    ${fontWeight.fontWeightBold};
+  `,
+  semiBold: css`
+    ${t1Base};
+    ${fontWeight.fontWeightSemiBold};
+  `,
+  medium: css`
+    ${t1Base};
+    ${fontWeight.fontWeightMedium};
+  `,
+  regular: css`
+    ${t1Base};
     ${fontWeight.fontWeightRegular};
   `,
 };
