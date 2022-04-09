@@ -5,10 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -24,7 +21,19 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Toffee Labs</title>
+
+    <!-- Preload fonts that will be used to prevent FOUT and FOIT: https://wp-rocket.me/blog/font-preloading-best-practices/ -->
+    <link rel="preload" as="style" href="%PUBLIC_URL%/fonts.css" />
+    <link rel="preload" as="font" href="%PUBLIC_URL%/fonts/Poppins/ttf/Poppins-Light.ttf" type="font/ttf" crossorigin />
+    <link rel="preload" as="font" href="%PUBLIC_URL%/fonts/Poppins/ttf/Poppins-Regular.ttf" type="font/ttf" crossorigin />
+    <link rel="preload" as="font" href="%PUBLIC_URL%/fonts/Poppins/ttf/Poppins-Medium.ttf" type="font/ttf" crossorigin />
+    <link rel="preload" as="font" href="%PUBLIC_URL%/fonts/Poppins/ttf/Poppins-SemiBold.ttf" type="font/ttf" crossorigin />
+    <link rel="preload" as="font" href="%PUBLIC_URL%/fonts/Poppins/ttf/Poppins-Bold.ttf" type="font/ttf" crossorigin />
+    <link rel="preload" as="font" href="%PUBLIC_URL%/fonts/Poppins/ttf/Rowdies-Bold.ttf" type="font/ttf" crossorigin />
+    <link rel="preload" as="font" href="%PUBLIC_URL%/fonts/Poppins/ttf/Rowdies-Light.ttf" type="font/ttf" crossorigin />
+    <link rel="preload" as="font" href="%PUBLIC_URL%/fonts/Poppins/ttf/Rowdies-Regular.ttf" type="font/ttf" crossorigin />
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/fonts.css" media="screen" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
