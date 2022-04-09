@@ -1,7 +1,12 @@
 import React, {FC} from 'react';
+import BrandingWLinks from './Home/BrandingWLinks';
 
 const App: FC = () => {
-  return <div>Toffee Website</div>;
+  return (
+    <>
+      <BrandingWLinks />
+    </>
+  );
 };
 
 export default App;
