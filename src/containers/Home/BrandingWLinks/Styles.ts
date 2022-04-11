@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import colors from 'styles/colors';
-import {h0, h2, t1} from 'styles/fonts';
+import {h0, h2, t2} from 'styles/fonts';
 
 interface AProps {
   element?: 'icon' | 'text';
@@ -33,13 +33,13 @@ export const BrandingContainer = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
 `;
 
 export const BrandingText = styled.span`
   color: ${colors.secondary};
-  ${t1.semiBold};
+  ${t2.semiBold};
   padding-left: 0.3em;
 `;
 
@@ -47,6 +47,10 @@ export const LinksContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const Link = styled.a<AProps>`

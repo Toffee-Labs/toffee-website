@@ -5,7 +5,8 @@ const fonts = {
   },
   size: {
     t0: '36px',
-    t1: '28px',
+    t1: '26px',
+    t2: '22px',
     d0: '48px',
     d1: '42px',
     d2: '36px',

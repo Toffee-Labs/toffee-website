@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import colors from 'styles/colors';
-import {t0, h1} from 'styles/fonts';
+import {t0, t1, t2, h1, h3} from 'styles/fonts';
 
 import BackgroundImage from 'assets/images/bgimage.jpg';
 
@@ -21,6 +21,12 @@ export const Background = styled.div`
   background-image: url(${BackgroundImage});
   background-size: cover;
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (max-width: 480px) {
+    background-position: 80% 0;
+  }
 `;
 
 export const Jumbotron = styled.div`
@@ -32,18 +38,37 @@ export const Jumbotron = styled.div`
   background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   border-radius: 20px;
-  padding: 2.2em;
+
+  @media (max-width: 480px) {
+    width: 90%;
+  }
+`;
+
+export const Wrapper = styled.div`
+  margin: 2.5em;
+
+  @media (max-width: 480px) {
+    margin: 1.75em;
+  }
 `;
 
 export const Title = styled.div`
   color: ${colors.primary};
   ${t0.semiBold};
+
+  @media (max-width: 480px) {
+    ${t1.regular};
+  }
 `;
 
 export const Subtitle = styled.div`
   color: ${colors.primary};
   ${h1.regular};
-  margin-top: 2em;
+  margin-top: 1em;
+
+  @media (max-width: 480px) {
+    ${h3.regular};
+  }
 `;
 
 export const Tint = styled.span`
