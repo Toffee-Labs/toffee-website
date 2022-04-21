@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import colors from 'styles/colors';
-import {t0, t1, t2, h1, h3} from 'styles/fonts';
+import {t0, t1, h1, h2} from 'styles/fonts';
 
 import BackgroundImage from 'assets/images/bgimage.jpg';
 
@@ -16,7 +16,7 @@ export const Overlay = styled.div`
 
 export const Background = styled.div`
   width: 100%;
-  height: 115vh;
+  height: 140vh;
   background-color: #f5f5f5;
   background-image: url(${BackgroundImage});
   background-size: cover;
@@ -67,7 +67,7 @@ export const Subtitle = styled.div`
   margin-top: 1em;
 
   @media (max-width: 480px) {
-    ${h3.regular};
+    ${h2.regular};
   }
 `;
 

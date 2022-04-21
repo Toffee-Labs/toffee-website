@@ -1,11 +1,7 @@
 import styled from 'styled-components';
 
 import colors from 'styles/colors';
-import {h0, h2, t2} from 'styles/fonts';
-
-interface AProps {
-  element?: 'icon' | 'text';
-}
+import {h0, h3, t2} from 'styles/fonts';
 
 export const HomeBar = styled.div`
   background-color: transparent;
@@ -53,9 +49,27 @@ export const LinksContainer = styled.div`
   }
 `;
 
-export const Link = styled.a<AProps>`
+export const Link = styled.a`
   margin-left: 0.7em;
-  color: ${(props) => (props.element === 'icon' ? colors.secondary : colors.white)};
-  ${(props) => (props.element === 'icon' ? h0.regular : h2.regular)}
+  color: ${colors.white};
+  ${h0.regular}
   text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`;
+
+export const ButtonLink = styled.a`
+  background-color: ${colors.secondary};
+  color: ${colors.white};
+  ${h3.regular}
+  text-decoration: none;
+  padding: 0.5em 1.25em;
+  border-radius: 7px;
+
+  &:hover {
+    background-color: ${colors.secondaryDark};
+    transition: background-color 0.15s ease-in-out;
+  }
 `;
