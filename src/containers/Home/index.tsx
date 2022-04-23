@@ -2,6 +2,7 @@ import React, {FC} from 'react';
 import BrandingWLinks from './BrandingWLinks';
 import Featured from './Featured';
 import KeyFeatures from './KeyFeatures';
+import Roadmap from './Roadmap';
 
 const App: FC = () => {
   return (
@@ -9,6 +10,7 @@ const App: FC = () => {
       <BrandingWLinks />
       <Featured />
       <KeyFeatures />
+      <Roadmap />
     </>
   );
 };

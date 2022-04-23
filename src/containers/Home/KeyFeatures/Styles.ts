@@ -30,7 +30,7 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   width: 85%;
   margin: auto;
-  padding-bottom: 3em;
+  padding-bottom: 5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,6 +41,7 @@ export const Title = styled.span`
   ${d2.bold}
   color: ${colors.white};
   text-align: center;
+  text-transform: uppercase;
 `;
 
 export const Tint = styled.span`
@@ -49,7 +50,7 @@ export const Tint = styled.span`
 
 export const GridContent = styled.div`
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 5em;
   margin-top: 3.5em;
 
